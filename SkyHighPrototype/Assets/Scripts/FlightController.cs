@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Simple aircraft controller for HW1
 public class FlightController : MonoBehaviour
 {
     [SerializeField] private float pitchSpeed = 45f;
