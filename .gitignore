@@ -1,0 +1,12 @@
+SkyHighPrototype/[Ll]ibrary/
+SkyHighPrototype/[Tt]emp/
+SkyHighPrototype/[Ll]ogs/
+SkyHighPrototype/[Bb]uild/
+SkyHighPrototype/[Bb]uilds/
+SkyHighPrototype/[Oo]bj/
+SkyHighPrototype/.vs/
+SkyHighPrototype/UserSettings/
+
+.DS_Store
+Thumbs.db
+Desktop.ini
