@@ -1040,6 +1040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LandingZoneController
   examManager: {fileID: 223454138}
   landingAudioSource: {fileID: 743300894}
+  maxLandingSpeed: 10
 --- !u!82 &743300894
 AudioSource:
   m_ObjectHideFlags: 0
