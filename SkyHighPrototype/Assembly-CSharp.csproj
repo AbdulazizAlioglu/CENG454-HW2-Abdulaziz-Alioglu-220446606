@@ -55,6 +55,7 @@
     <Compile Include="Assets\Scripts\MissileHoming.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\FlightController.cs" />
+    <Compile Include="Assets\Scripts\LandingZoneController.cs" />
     <Compile Include="Assets\Scripts\FlightExamManager.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
   </ItemGroup>
