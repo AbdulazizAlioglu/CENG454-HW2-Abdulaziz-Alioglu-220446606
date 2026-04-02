@@ -30,11 +30,26 @@ public class FlightExamManager : MonoBehaviour
             missionText.text = "You must clear the danger zone before completing the landing!";
             return;
         }
+
         missionCompleted = true;
         missionText.text = "Mission Completed! Well done!";
     }
 
+    // 🔥 EKLEDİĞİM KISIMLAR
+    public void PassExam()
+    {
+        CompleteMission(); // zaten kontrol burada var
+    }
+
+    public void FailExam()
+    {
+        statusText.text = "Crash Landing!";
+        missionText.text = "Mission Failed! Landing too fast!";
+        missionCompleted = false;
+    }
+
     public bool IsThreatCleared() => threatCleared;
+
     public void OnMissileHit()
     {
         threatCleared = false;
