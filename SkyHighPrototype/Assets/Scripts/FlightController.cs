@@ -20,6 +20,11 @@ public class FlightController : MonoBehaviour
     {
         HandleRotation();
         HandleThrust();
+        // Minimum yükseklik sınırı
+        if (transform.position.y < 1f)
+        {
+             transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
+        }
     }
 
     private void HandleRotation()
