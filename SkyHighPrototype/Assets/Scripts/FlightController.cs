@@ -21,9 +21,10 @@ public class FlightController : MonoBehaviour
         HandleRotation();
         HandleThrust();
         // Minimum yükseklik sınırı
-        if (transform.position.y < 1f)
+        float terrainHeight = Terrain.activeTerrain.SampleHeight(transform.position);
+        if (transform.position.y < terrainHeight + 0.1f)
         {
-             transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, terrainHeight + 1f, transform.position.z);
         }
     }
 
